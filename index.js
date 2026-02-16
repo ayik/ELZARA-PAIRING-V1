@@ -25,14 +25,14 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const OWNER_IDENTITY = Object.freeze({
-  NAME:        'Yousuf Baloch',
-  FULL_NAME:   'Muhammad Yousaf Baloch',
-  WHATSAPP:    '923710636110',
-  TIKTOK:      'https://www.tiktok.com/@yousaf_baloch_tech',
-  YOUTUBE:     'https://www.youtube.com/@Yousaf_Baloch_Tech',
-  CHANNEL:     'https://whatsapp.com/channel/0029Vb3Uzps6buMH2RvGef0j',
-  GITHUB:      'https://github.com/musakhanbaloch03-sad',
-  BOT_NAME:    'YOUSAF-BALOCH-MD',
+  NAME:        'Ayik Kiya',
+  FULL_NAME:   'Ayik Kiya',
+  WHATSAPP:    '6285691994709',
+  TIKTOK:      'https://www.tiktok.com/@ayikhost',
+  YOUTUBE:     'https://www.youtube.com/@ayikhost',
+  CHANNEL:     'https://whatsapp.com/channel/0029VbAy0Yk0G0XgdDyxgX2v',
+  GITHUB:      'https://github.com/ayik',
+  BOT_NAME:    'ELZARA-MD',
   VERSION:     '2.0.0',
   BAILEYS_VER: '6.7.8',
 });
@@ -78,11 +78,11 @@ function printBanner() {
   const gold  = gradient(['#FFD700', '#FFA500', '#FF6347']);
 
   console.log('\n' + fire.multiline(
-    figlet.textSync('YOUSAF-MD', { font: 'ANSI Shadow', horizontalLayout: 'full' })
+    figlet.textSync('ELZARA-MD', { font: 'ANSI Shadow', horizontalLayout: 'full' })
   ));
 
   console.log(cyber('  ═══════════════════════════════════════════════════════════════'));
-  console.log(gold('  ⚡  YOUSAF-BALOCH-MD  |  Official Pairing Gateway  |  v2.0.0  ⚡'));
+  console.log(gold('  ⚡  ELZARA-MD  |  Official Pairing Gateway  |  v2.0.0  ⚡'));
   console.log(cyber('  ═══════════════════════════════════════════════════════════════'));
 
   console.log(chalk.hex('#00FFFF')('  👑  Owner  : ') + chalk.hex('#FFD700').bold(OWNER_IDENTITY.FULL_NAME));
@@ -98,7 +98,7 @@ function printBanner() {
 
 function buildSuccessMessage(sessionId) {
   return `╔══════════════════════════════════════════════╗
-║   ⚡ YOUSAF-BALOCH-MD — CONNECTED! ⚡        ║
+║   ⚡ ELZARA-MD — CONNECTED! ⚡        ║
 ╚══════════════════════════════════════════════╝
 
 ✅ *BOT CONNECTED SUCCESSFULLY!*
@@ -279,7 +279,7 @@ app.get('/', (req, res) => {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YOUSAF-BALOCH-MD Pairing Gateway</title>
+    <title>ELZARA-MD Pairing Gateway</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -431,20 +431,20 @@ app.get('/', (req, res) => {
 </head>
 <body>
     <div class="container">
-        <h1>🤖 YOUSAF-BALOCH-MD</h1>
+        <h1>🤖 ELZARA-MD</h1>
         <span class="badge">💎 ULTRA PRO PREMIUM</span>
         <p class="subtitle">WhatsApp Session Generator V2.0</p>
         
         <div class="social-links">
-            <a href="https://www.youtube.com/@Yousaf_Baloch_Tech" target="_blank" class="social-link">📺 YouTube</a>
-            <a href="https://tiktok.com/@loser_boy.110" target="_blank" class="social-link">🎵 TikTok</a>
-            <a href="https://whatsapp.com/channel/0029Vb3Uzps6buMH2RvGef0j" target="_blank" class="social-link">📢 Channel</a>
-            <a href="https://github.com/musakhanbaloch03-sad" target="_blank" class="social-link">🔗 GitHub</a>
+            <a href="https://www.youtube.com/@ayikhost" target="_blank" class="social-link">📺 YouTube</a>
+            <a href="https://tiktok.com/@ayikhost" target="_blank" class="social-link">🎵 TikTok</a>
+            <a href="https://whatsapp.com/channel/0029VbAy0Yk0G0XgdDyxgX2v" target="_blank" class="social-link">📢 Channel</a>
+            <a href="https://github.com/ayik" target="_blank" class="social-link">🔗 GitHub</a>
         </div>
         
         <div class="input-group">
             <label>📱 Enter Your WhatsApp Number</label>
-            <input type="tel" id="phoneNumber" placeholder="923710636110">
+            <input type="tel" id="phoneNumber" placeholder="6285691994***">
             <small style="color: #666; font-size: 12px;">Enter with country code (without + or spaces)</small>
         </div>
         
@@ -454,9 +454,9 @@ app.get('/', (req, res) => {
         <div class="result" id="result"></div>
         
         <div class="footer">
-            <p>Made with ❤️ by <strong>Muhammad Yousaf Baloch</strong></p>
-            <p style="margin-top: 10px;">📱 WhatsApp: <a href="https://wa.me/923710636110" target="_blank">+923710636110</a></p>
-            <p style="margin-top: 5px;">🔗 Main Bot: <a href="https://github.com/musakhanbaloch03-sad/YOUSAF-BALOCH-MD" target="_blank">YOUSAF-BALOCH-MD</a></p>
+            <p>Made with ❤️ by <strong>Ayik Kiya</strong></p>
+            <p style="margin-top: 10px;">📱 WhatsApp: <a href="https://wa.me/6285691994709" target="_blank">+6285691994***</a></p>
+            <p style="margin-top: 5px;">🔗 Main Bot: <a href="https://github.com/ayik/ELZARA-MD" target="_blank">ELZARA-MD</a></p>
         </div>
     </div>
     
@@ -512,7 +512,7 @@ app.get('/', (req, res) => {
 app.get('/health', (req, res) => {
   res.json({
     status: '✅ Online',
-    service: 'YOUSAF-PAIRING-V1',
+    service: 'ELZARA-PAIRING-V1',
     owner: OWNER_IDENTITY.FULL_NAME,
     version: OWNER_IDENTITY.VERSION,
     timestamp: new Date().toISOString(),
